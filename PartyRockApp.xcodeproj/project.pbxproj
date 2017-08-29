@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764651551F55D783002693E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764651541F55D783002693E2 /* AppDelegate.swift */; };
+		764651571F55D783002693E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764651561F55D783002693E2 /* ViewController.swift */; };
+		7646515A1F55D783002693E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764651581F55D783002693E2 /* Main.storyboard */; };
+		7646515D1F55D783002693E2 /* PartyRockApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7646515B1F55D783002693E2 /* PartyRockApp.xcdatamodeld */; };
+		7646515F1F55D783002693E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7646515E1F55D783002693E2 /* Assets.xcassets */; };
+		764651621F55D783002693E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 764651601F55D783002693E2 /* LaunchScreen.storyboard */; };
+		7646516D1F55D783002693E2 /* PartyRockAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7646516C1F55D783002693E2 /* PartyRockAppTests.swift */; };
+		764651781F55D783002693E2 /* PartyRockAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764651771F55D783002693E2 /* PartyRockAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		764651691F55D783002693E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764651491F55D783002693E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764651501F55D783002693E2;
+			remoteInfo = PartyRockApp;
+		};
+		764651741F55D783002693E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764651491F55D783002693E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764651501F55D783002693E2;
+			remoteInfo = PartyRockApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		764651511F55D783002693E2 /* PartyRockApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyRockApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		764651541F55D783002693E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		764651561F55D783002693E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		764651591F55D783002693E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7646515C1F55D783002693E2 /* PartyRockApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyRockApp.xcdatamodel; sourceTree = "<group>"; };
+		7646515E1F55D783002693E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		764651611F55D783002693E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		764651631F55D783002693E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764651681F55D783002693E2 /* PartyRockAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyRockAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7646516C1F55D783002693E2 /* PartyRockAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRockAppTests.swift; sourceTree = "<group>"; };
+		7646516E1F55D783002693E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		764651731F55D783002693E2 /* PartyRockAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyRockAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		764651771F55D783002693E2 /* PartyRockAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRockAppUITests.swift; sourceTree = "<group>"; };
+		764651791F55D783002693E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7646514E1F55D783002693E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764651651F55D783002693E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764651701F55D783002693E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		764651481F55D783002693E2 = {
+			isa = PBXGroup;
+			children = (
+				764651531F55D783002693E2 /* PartyRockApp */,
+				7646516B1F55D783002693E2 /* PartyRockAppTests */,
+				764651761F55D783002693E2 /* PartyRockAppUITests */,
+				764651521F55D783002693E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		764651521F55D783002693E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764651511F55D783002693E2 /* PartyRockApp.app */,
+				764651681F55D783002693E2 /* PartyRockAppTests.xctest */,
+				764651731F55D783002693E2 /* PartyRockAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		764651531F55D783002693E2 /* PartyRockApp */ = {
+			isa = PBXGroup;
+			children = (
+				764651541F55D783002693E2 /* AppDelegate.swift */,
+				764651561F55D783002693E2 /* ViewController.swift */,
+				764651581F55D783002693E2 /* Main.storyboard */,
+				7646515E1F55D783002693E2 /* Assets.xcassets */,
+				764651601F55D783002693E2 /* LaunchScreen.storyboard */,
+				764651631F55D783002693E2 /* Info.plist */,
+				7646515B1F55D783002693E2 /* PartyRockApp.xcdatamodeld */,
+			);
+			path = PartyRockApp;
+			sourceTree = "<group>";
+		};
+		7646516B1F55D783002693E2 /* PartyRockAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				7646516C1F55D783002693E2 /* PartyRockAppTests.swift */,
+				7646516E1F55D783002693E2 /* Info.plist */,
+			);
+			path = PartyRockAppTests;
+			sourceTree = "<group>";
+		};
+		764651761F55D783002693E2 /* PartyRockAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				764651771F55D783002693E2 /* PartyRockAppUITests.swift */,
+				764651791F55D783002693E2 /* Info.plist */,
+			);
+			path = PartyRockAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764651501F55D783002693E2 /* PartyRockApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7646517C1F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockApp" */;
+			buildPhases = (
+				7646514D1F55D783002693E2 /* Sources */,
+				7646514E1F55D783002693E2 /* Frameworks */,
+				7646514F1F55D783002693E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PartyRockApp;
+			productName = PartyRockApp;
+			productReference = 764651511F55D783002693E2 /* PartyRockApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		764651671F55D783002693E2 /* PartyRockAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7646517F1F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockAppTests" */;
+			buildPhases = (
+				764651641F55D783002693E2 /* Sources */,
+				764651651F55D783002693E2 /* Frameworks */,
+				764651661F55D783002693E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7646516A1F55D783002693E2 /* PBXTargetDependency */,
+			);
+			name = PartyRockAppTests;
+			productName = PartyRockAppTests;
+			productReference = 764651681F55D783002693E2 /* PartyRockAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		764651721F55D783002693E2 /* PartyRockAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764651821F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockAppUITests" */;
+			buildPhases = (
+				7646516F1F55D783002693E2 /* Sources */,
+				764651701F55D783002693E2 /* Frameworks */,
+				764651711F55D783002693E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764651751F55D783002693E2 /* PBXTargetDependency */,
+			);
+			name = PartyRockAppUITests;
+			productName = PartyRockAppUITests;
+			productReference = 764651731F55D783002693E2 /* PartyRockAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		764651491F55D783002693E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cookie;
+				TargetAttributes = {
+					764651501F55D783002693E2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VB3227H635;
+						ProvisioningStyle = Automatic;
+					};
+					764651671F55D783002693E2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VB3227H635;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 764651501F55D783002693E2;
+					};
+					764651721F55D783002693E2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = VB3227H635;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 764651501F55D783002693E2;
+					};
+				};
+			};
+			buildConfigurationList = 7646514C1F55D783002693E2 /* Build configuration list for PBXProject "PartyRockApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 764651481F55D783002693E2;
+			productRefGroup = 764651521F55D783002693E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				764651501F55D783002693E2 /* PartyRockApp */,
+				764651671F55D783002693E2 /* PartyRockAppTests */,
+				764651721F55D783002693E2 /* PartyRockAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7646514F1F55D783002693E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764651621F55D783002693E2 /* LaunchScreen.storyboard in Resources */,
+				7646515F1F55D783002693E2 /* Assets.xcassets in Resources */,
+				7646515A1F55D783002693E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764651661F55D783002693E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764651711F55D783002693E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7646514D1F55D783002693E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764651571F55D783002693E2 /* ViewController.swift in Sources */,
+				764651551F55D783002693E2 /* AppDelegate.swift in Sources */,
+				7646515D1F55D783002693E2 /* PartyRockApp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764651641F55D783002693E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7646516D1F55D783002693E2 /* PartyRockAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7646516F1F55D783002693E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764651781F55D783002693E2 /* PartyRockAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7646516A1F55D783002693E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764651501F55D783002693E2 /* PartyRockApp */;
+			targetProxy = 764651691F55D783002693E2 /* PBXContainerItemProxy */;
+		};
+		764651751F55D783002693E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764651501F55D783002693E2 /* PartyRockApp */;
+			targetProxy = 764651741F55D783002693E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		764651581F55D783002693E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				764651591F55D783002693E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		764651601F55D783002693E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				764651611F55D783002693E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7646517A1F55D783002693E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7646517B1F55D783002693E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7646517D1F55D783002693E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7646517E1F55D783002693E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		764651801F55D783002693E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PartyRockApp.app/PartyRockApp";
+			};
+			name = Debug;
+		};
+		764651811F55D783002693E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PartyRockApp.app/PartyRockApp";
+			};
+			name = Release;
+		};
+		764651831F55D783002693E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PartyRockApp;
+			};
+			name = Debug;
+		};
+		764651841F55D783002693E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = VB3227H635;
+				INFOPLIST_FILE = PartyRockAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GC.PartyRockAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PartyRockApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7646514C1F55D783002693E2 /* Build configuration list for PBXProject "PartyRockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7646517A1F55D783002693E2 /* Debug */,
+				7646517B1F55D783002693E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7646517C1F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7646517D1F55D783002693E2 /* Debug */,
+				7646517E1F55D783002693E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7646517F1F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764651801F55D783002693E2 /* Debug */,
+				764651811F55D783002693E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		764651821F55D783002693E2 /* Build configuration list for PBXNativeTarget "PartyRockAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764651831F55D783002693E2 /* Debug */,
+				764651841F55D783002693E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7646515B1F55D783002693E2 /* PartyRockApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7646515C1F55D783002693E2 /* PartyRockApp.xcdatamodel */,
+			);
+			currentVersion = 7646515C1F55D783002693E2 /* PartyRockApp.xcdatamodel */;
+			path = PartyRockApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 764651491F55D783002693E2 /* Project object */;
+}
